@@ -10,6 +10,7 @@
         steve: {assetKey: 'steve', points: 30},
         grace: {assetKey: 'grace', points: 40},
         kennedi: {assetKey: 'kennedi', points: 50}
+        Yv80ksa: {assetKey: 'gabe', points: 60}
     };
     
     /**
@@ -35,7 +36,9 @@
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
         // example: 
-        //collectable.create(type.steve, 200, 170, 6, 0.7);
+        collectable.create(type.steve, 200, 170, 6, 0.7);
+        collectable.create(type.Yv80ksa, 400, 170, 6, 0.7);
+        collectable.create(type.max, 500, 170, 6, 0.7);
         
         
         
